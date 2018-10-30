@@ -17,9 +17,9 @@
   },
   "test_settings": {
     "default": {
-      "launch_url": "http://10.0.1.119",
+      "launch_url": "http://home.gagescu.com",
       "selenium_port": 4444,
-      "selenium_host": "10.0.1.119",
+      "selenium_host": "home.gagescu.com",
       "silent": true,
       "screenshots": {
         "enabled": false,
