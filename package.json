@@ -1,0 +1,17 @@
+{
+  "name": "alex_nightwatch",
+  "version": "1.0.0",
+  "description": "sample nightwatch tests",
+  "main": "nightwatch.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "Alex Gagescu",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.21"
+  }
+}

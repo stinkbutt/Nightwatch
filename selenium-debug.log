@@ -1,0 +1,90 @@
+14:42:17.974 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+14:42:17.975 INFO - Launching a standalone Selenium Server on port 4444
+2018-10-29 14:42:18.052:INFO::main: Logging initialized @283ms to org.seleniumhq.jetty9.util.log.StdErrLog
+2018-10-29 14:42:18.141:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T16:27:37-05:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-10-29 14:42:18.161:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@7791a895{/,null,STARTING} has uncovered http methods for path: /
+2018-10-29 14:42:18.165:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@7791a895{/,null,AVAILABLE}
+2018-10-29 14:42:18.193:INFO:osjs.AbstractConnector:main: Started ServerConnector@7f13d6e{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-10-29 14:42:18.193:INFO:osjs.Server:main: Started @425ms
+14:42:18.194 INFO - Selenium Server is up and running on port 4444
+2018-10-29 14:42:18.370:INFO:osjshC.ROOT:qtp26117480-13: org.openqa.selenium.remote.server.WebDriverServlet-26653222: Initialising WebDriverServlet
+14:42:18.421 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@3be0fc4d
+14:42:18.424 INFO - /session: Executing POST on /session (handler: BeginSession)
+14:42:18.481 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, name: Jenkins}
+14:42:18.482 INFO - Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, name: Jenkins} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1540838538748	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8_/1yw4x7nj3d16shymhb1dsq2d187vhl/T/rust_mozprofile.iincyTyfAdeH"
+2018-10-29 14:42:19.922 plugin-container[78627:1728329] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-29 14:42:20.106 plugin-container[78627:1728329] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x870f, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-29 14:42:20.199 plugin-container[78628:1728356] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7743, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-29 14:42:20.292 plugin-container[78628:1728356] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x77db, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540838540461	Marionette	INFO	Listening on port 54927
+1540838540524	Marionette	DEBUG	[4294967297] Frame script loaded
+1540838540541	Marionette	DEBUG	[4294967297] Frame script registered
+14:42:20.556 INFO - Detected dialect: W3C
+14:42:20.608 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7fc88142
+14:42:20.608 INFO - Handler thread for session ac13f2e0-0c9a-7a45-a492-82a5c54730c0 (firefox): Executing POST on /session/ac13f2e0-0c9a-7a45-a492-82a5c54730c0/url (handler: ServicedSession)
+1540838540615	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540838540868	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+2018-10-29 14:42:20.891 plugin-container[78629:1728487] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-29 14:42:20.977 plugin-container[78629:1728487] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8423, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540838542034	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.youtube.com/
+1540838542617	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.youtube.com/
+14:42:22.629 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7fc88142
+14:42:22.630 INFO - Handler thread for session ac13f2e0-0c9a-7a45-a492-82a5c54730c0 (firefox): Executing POST on /session/ac13f2e0-0c9a-7a45-a492-82a5c54730c0/element (handler: ServicedSession)
+14:42:22.657 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7fc88142
+14:42:22.657 INFO - Handler thread for session ac13f2e0-0c9a-7a45-a492-82a5c54730c0 (firefox): Executing POST on /session/ac13f2e0-0c9a-7a45-a492-82a5c54730c0/element/1b253557-c28d-6746-b449-cd6cb47bb739/value (handler: ServicedSession)
+14:42:22.719 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7fc88142
+14:42:22.719 INFO - Handler thread for session ac13f2e0-0c9a-7a45-a492-82a5c54730c0 (firefox): Executing POST on /session/ac13f2e0-0c9a-7a45-a492-82a5c54730c0/element (handler: ServicedSession)
+14:42:22.728 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7fc88142
+14:42:22.729 INFO - Handler thread for session ac13f2e0-0c9a-7a45-a492-82a5c54730c0 (firefox): Executing POST on /session/ac13f2e0-0c9a-7a45-a492-82a5c54730c0/element/0a7e2013-9292-7b48-a9f8-bc409046b76b/click (handler: ServicedSession)
+1540838544302	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+14:42:24.309 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7fc88142
+14:42:24.309 INFO - Handler thread for session ac13f2e0-0c9a-7a45-a492-82a5c54730c0 (firefox): Executing POST on /session/ac13f2e0-0c9a-7a45-a492-82a5c54730c0/element (handler: ServicedSession)
+14:42:24.322 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7fc88142
+14:42:24.322 INFO - Handler thread for session ac13f2e0-0c9a-7a45-a492-82a5c54730c0 (firefox): Executing GET on /session/ac13f2e0-0c9a-7a45-a492-82a5c54730c0/element/0f7cec9a-0014-9b45-98ad-1653580eaded/text (handler: ServicedSession)
+14:42:27.882 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7fc88142
+14:42:27.882 INFO - Handler thread for session ac13f2e0-0c9a-7a45-a492-82a5c54730c0 (firefox): Executing DELETE on /session/ac13f2e0-0c9a-7a45-a492-82a5c54730c0 (handler: ServicedSession)
+1540838547886	Marionette	INFO	Stopped listening on port 54927
+[Child 78628, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+14:42:28.577 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@7fc88142
+14:42:28.584 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@765ad209
+14:42:28.584 INFO - /session: Executing POST on /session (handler: BeginSession)
+14:42:28.587 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, name: Pageload}
+14:42:28.587 INFO - Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, name: Pageload} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1540838548626	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8_/1yw4x7nj3d16shymhb1dsq2d187vhl/T/rust_mozprofile.CEPX9DnF0Nip"
+2018-10-29 14:42:29.767 plugin-container[78634:1728807] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-29 14:42:29.854 plugin-container[78634:1728807] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c5f, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-29 14:42:30.062 plugin-container[78635:1728838] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8443, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-29 14:42:30.148 plugin-container[78635:1728838] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8463, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540838550295	Marionette	INFO	Listening on port 55133
+1540838550397	Marionette	DEBUG	[4294967297] Frame script loaded
+1540838550398	Marionette	DEBUG	[4294967297] Frame script registered
+14:42:30.405 INFO - Detected dialect: W3C
+14:42:30.411 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7bb94a3f
+14:42:30.411 INFO - Handler thread for session b808c6f5-75a7-a04d-b925-604cbf9c4134 (firefox): Executing POST on /session/b808c6f5-75a7-a04d-b925-604cbf9c4134/url (handler: ServicedSession)
+1540838550418	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540838550679	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+2018-10-29 14:42:30.740 plugin-container[78636:1728973] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540838550761	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.google.com/?gws_rd=ssl
+2018-10-29 14:42:30.831 plugin-container[78636:1728973] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b03, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540838550927	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.google.com/?gws_rd=ssl
+14:42:30.932 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7bb94a3f
+14:42:30.932 INFO - Handler thread for session b808c6f5-75a7-a04d-b925-604cbf9c4134 (firefox): Executing POST on /session/b808c6f5-75a7-a04d-b925-604cbf9c4134/element (handler: ServicedSession)
+14:42:30.942 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7bb94a3f
+14:42:30.942 INFO - Handler thread for session b808c6f5-75a7-a04d-b925-604cbf9c4134 (firefox): Executing GET on /session/b808c6f5-75a7-a04d-b925-604cbf9c4134/element/da1be0aa-e811-0c42-84c9-399b2b3b0241/text (handler: ServicedSession)
+14:42:31.113 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7bb94a3f
+14:42:31.113 INFO - Handler thread for session b808c6f5-75a7-a04d-b925-604cbf9c4134 (firefox): Executing DELETE on /session/b808c6f5-75a7-a04d-b925-604cbf9c4134 (handler: ServicedSession)
+1540838551116	Marionette	INFO	Stopped listening on port 55133
+14:42:31.569 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@7bb94a3f

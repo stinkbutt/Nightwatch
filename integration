@@ -1,0 +1,20 @@
+
+{
+  ...
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://localhost",
+      "globals" : {
+        "myGlobalVar" : "some value",
+        "otherGlobal" : "some other value"
+      }
+    },
+
+    "integration" : {
+      "launch_url" : "http://staging.host",
+      "globals" : {
+        "myGlobalVar" : "other value"
+      }
+    }
+  }
+}
